@@ -1,4 +1,4 @@
 package pageObject;
 
-public class AccountPage {
+public class ProductPage {
 }

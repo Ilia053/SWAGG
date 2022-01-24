@@ -1,4 +1,4 @@
 package pageObject;
 
-public class AboutPage {
+public class LoginPage {
 }
