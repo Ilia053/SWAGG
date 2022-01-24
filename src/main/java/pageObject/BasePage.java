@@ -27,11 +27,13 @@ public class BasePage {
     }
 
     public void fillField(WebElement elem, String text){
+        waitisVisible(elem);
         elem.clear();
         elem.sendKeys(text);
     }
 
     public void clickElem(WebElement elem){
+        waitisClickable(elem);
         elem.click();
     }
 
@@ -49,5 +51,8 @@ public class BasePage {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+    }
+    public void tearDown() {
+        driver.quit();
     }
 }
