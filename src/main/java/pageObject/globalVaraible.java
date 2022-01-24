@@ -11,4 +11,6 @@ public class globalVaraible {
     public static final String CORRECT_PASSWORD = "secret_sauce";
     public static final String INCORRECT_PASSWORD = "jciewjfoiewjf";
     public static final String EMPTY_PASSWORD = "";
+    public static final String ERORR_MESSAGE_LOGIN = "Epic sadface: Username is required";
+
 }

@@ -38,6 +38,7 @@ public abstract class BasePage {
     }
 
     public String getTextElem(WebElement elem){
+        waitisVisible(elem);
         return elem.getText();
     }
 

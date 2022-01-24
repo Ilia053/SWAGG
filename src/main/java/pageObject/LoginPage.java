@@ -19,6 +19,22 @@ public class LoginPage extends BasePage{
     public LoginPage(WebDriver driver) {
         super(driver);
     }
+
+    public void insertName(String text){
+        fillField(username, text);
+    }
+
+    public void insertPass(String text){
+        fillField(password, text);
+    }
+
+    public void clickLoginElem(){
+        clickElem(buttonLogin);
+    }
+
+    public String getErorrText(){
+        return getTextElem(textError);
+    }
 }
 
 
