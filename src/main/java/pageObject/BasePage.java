@@ -46,12 +46,13 @@ public abstract class BasePage {
         return driver.getCurrentUrl();
     }
 
-    public void sleepMy(long x){
+    public BasePage sleepMy(long x){
         try {
             Thread.sleep(x);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+        return this;
     }
     public void tearDown() {
         driver.quit();

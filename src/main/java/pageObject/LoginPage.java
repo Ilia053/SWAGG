@@ -20,16 +20,19 @@ public class LoginPage extends BasePage{
         super(driver);
     }
 
-    public void insertName(String text){
+    public LoginPage insertName(String text){
         fillField(username, text);
+        return this;
     }
 
-    public void insertPass(String text){
+    public LoginPage insertPass(String text){
         fillField(password, text);
+        return this;
     }
 
-    public void clickLoginElem(){
+    public LoginPage clickLoginElem(){
         clickElem(buttonLogin);
+        return this;
     }
 
     public String getErorrText(){
