@@ -6,6 +6,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import pageObject.GlobalVaraible;
+import pageObject.Urls;
 
 public class BaseTest {
     WebDriver driver;
@@ -16,10 +18,10 @@ public class BaseTest {
     }
 
     @BeforeMethod
-    public void setupDrive(String address){
+    public void setupDrive(){
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get(address);
+        driver.get(GlobalVaraible.Urls.BASE_URL_ENTER);
     }
 
     @AfterMethod

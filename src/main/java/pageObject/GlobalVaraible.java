@@ -1,6 +1,6 @@
 package pageObject;
 
-public class globalVaraible {
+public class GlobalVaraible {
     public static final String STANDARD_USER = "standard_user";
     public static final String LOCKED_USER = "locked_out_user";
     public static final String PROBLEM_USER = "problem_user";
@@ -13,4 +13,13 @@ public class globalVaraible {
     public static final String EMPTY_PASSWORD = "";
     public static final String ERORR_MESSAGE_LOGIN = "Epic sadface: Username is required";
 
+    public class Inside{
+
+    }
+
+    public class Urls {
+        public static final String BASE_URL_ENTER = "https://www.saucedemo.com/";
+        public static final String BASE_URL_PRODUCT = "https://www.saucedemo.com/inventory.html";
+
+    }
 }

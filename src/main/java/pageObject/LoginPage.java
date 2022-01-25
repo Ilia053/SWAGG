@@ -34,6 +34,7 @@ public class LoginPage extends BasePage{
 
     public String getErorrText(){
         return getTextElem(textError);
+
     }
 }
 
