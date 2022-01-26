@@ -54,6 +54,11 @@ public abstract class BasePage {
         }
         return this;
     }
+
+    public void correct(String str1, String str2){
+
+    }
+
     public void tearDown() {
         driver.quit();
     }
