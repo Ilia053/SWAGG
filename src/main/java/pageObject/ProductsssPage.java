@@ -20,4 +20,13 @@ public class ProductsssPage extends BasePage{
         return stringProd.getText();
     }
 
+    public void addToCart(){
+
+    }
+    public void removeToCart(){
+
+    }
+    public void clickName(){
+        
+    }
 }

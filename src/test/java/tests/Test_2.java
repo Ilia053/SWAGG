@@ -9,8 +9,8 @@ public class Test_2 extends BaseTestWithEnter{
     public void test_2(){
             ProductsssPage productsssPage = new ProductsssPage(driver);
             productsssPage.getName();
-            enter();//
-        
+            enter();
+
 
     }
 }
