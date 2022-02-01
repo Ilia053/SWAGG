@@ -6,20 +6,20 @@ import pageObject.GlobalVaraible;
 import pageObject.ProductPage;
 import pageObject.ProductsssPage;
 
-public class Test_2 extends BaseTestWithEnter{
+import java.util.Arrays;
+
+public class Test_2 extends BaseTestWithEnter {
 
     @Test
-    public void test_2(){
-            ProductsssPage productsssPage = new ProductsssPage(driver);
-            Assert.assertEquals(productsssPage.getName(), GlobalVaraible.Productsss.NAME_PRODUCTS);
-            productsssPage.clickNameProduct(GlobalVaraible.Productsss.TITLE_NAME_LIST[0]).sleepMy(200);
+    public void test_2() {
+        ProductsssPage productsssPage = new ProductsssPage(driver);
+        productsssPage.sleepMy(2000);
+        Assert.assertEquals(productsssPage.getName(), GlobalVaraible.Productsss.NAME_PRODUCTS);
+        productsssPage.clickNameProduct(GlobalVaraible.Productsss.TITLE_NAME_LIST[0]);
+        productsssPage.sleepMy(2000);
 
-            ProductPage productPage = new ProductPage(driver);
-            Assert.assertEquals(productPage.getName(), GlobalVaraible.Productsss.ProductInside.BACK_TO_PRUDUCTS);
-
-
-
+        ProductPage productPage = new ProductPage(driver);
+        Assert.assertEquals(productPage.getName(), GlobalVaraible.Productsss.ProductInside.BACK_TO_PRODUCTS);
 
     }
-    
 }

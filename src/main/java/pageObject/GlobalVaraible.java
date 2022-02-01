@@ -29,7 +29,7 @@ public class GlobalVaraible {
 
         };
         public class ProductInside{
-            public static final String BACK_TO_PRUDUCTS = "BACK TO PRODUCTS";
+            public static final String BACK_TO_PRODUCTS = "BACK TO PRODUCTS";
         }
         }
 

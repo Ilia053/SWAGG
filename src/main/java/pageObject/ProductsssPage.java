@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import java.util.Arrays;
 import java.util.List;
 
 public class ProductsssPage extends BasePage{
@@ -18,7 +19,11 @@ public class ProductsssPage extends BasePage{
     WebElement stringProd;
 
     @FindBy(css = "[class='inventory_item_name']")
-    private List<WebElement> listOfProductTitle;
+    public List<WebElement> listOfProductTitle;
+
+    @FindBy(css = "[class='btn btn_primary btn_small btn_inventory']")
+    private List<WebElement> listOfButtonAdd;
+
 
 
     public String getName(){
@@ -26,18 +31,28 @@ public class ProductsssPage extends BasePage{
         return stringProd.getText();
     }
 
-    public ProductsssPage clickNameProduct(String nameOfProducts){
+
+
+    public void  clickNameProduct(String nameOfProducts){
         for (WebElement productName : listOfProductTitle) {
             if (productName.getText().equalsIgnoreCase(nameOfProducts)){
+                waitisClickable(productName);
                 productName.click();
-                return this;
+                sleepMy(3000);
             }
-            break;
         }
-        return this;
     }
-    public void addToCart(String nameOfProducts){
 
+
+    public void addToCart(String nameOfProducts){
+        for (WebElement productName : listOfProductTitle) {
+            if (productName.getText().equalsIgnoreCase(nameOfProducts)){
+                int x = Arrays.stream(GlobalVaraible.Productsss.TITLE_NAME_LIST).toList().indexOf(nameOfProducts);
+                System.out.println(x);
+                listOfButtonAdd.get(x).click();
+                sleepMy(2000);
+            }
+        }
     }
     public void removeToCart(){
 
