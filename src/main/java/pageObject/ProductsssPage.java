@@ -47,9 +47,7 @@ public class ProductsssPage extends BasePage{
     public void addToCart(String nameOfProducts){
         for (WebElement productName : listOfProductTitle) {
             if (productName.getText().equalsIgnoreCase(nameOfProducts)){
-                int x = Arrays.stream(GlobalVaraible.Productsss.TITLE_NAME_LIST).toList().indexOf(nameOfProducts);
-                System.out.println(x);
-                listOfButtonAdd.get(x).click();
+                listOfButtonAdd.get(Arrays.stream(GlobalVaraible.Productsss.TITLE_NAME_LIST).toList().indexOf(nameOfProducts)).click();
                 sleepMy(2000);
             }
         }
