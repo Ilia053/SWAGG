@@ -33,7 +33,7 @@ public class ProductsssPage extends BasePage{
 
 
 
-    public void  clickNameProduct(String nameOfProducts){
+    public void   clickNameProduct(String nameOfProducts){
         for (WebElement productName : listOfProductTitle) {
             if (productName.getText().equalsIgnoreCase(nameOfProducts)){
                 waitisClickable(productName);
@@ -52,6 +52,13 @@ public class ProductsssPage extends BasePage{
             }
         }
         return this;
+    }
+    public void allProductClick(){
+        for (WebElement webElement : listOfProductTitle) {
+            waitisClickable(webElement);
+            webElement.click();
+            sleepMy(2000);
+        }
     }
     public void removeToCart(){
 

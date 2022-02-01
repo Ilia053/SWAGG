@@ -17,5 +17,9 @@ public class ProductPage extends BasePage{
         waitisVisible(buttonBackToProducts);
         return buttonBackToProducts.getText();
     }
+    public ProductPage backToMain(){
+        buttonBackToProducts.click();
+        return this;
+    }
 
 }
