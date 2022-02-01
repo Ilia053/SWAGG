@@ -36,7 +36,7 @@ public class ProductsssPage extends BasePage{
         }
         return this;
     }
-    public void addToCart(){
+    public void addToCart(String nameOfProducts){
 
     }
     public void removeToCart(){

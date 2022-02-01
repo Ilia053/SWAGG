@@ -28,7 +28,9 @@ public class GlobalVaraible {
                 "Test.allTheThings() T-Shirt (Red)"
 
         };
-
+        public class ProductInside{
+            public static final String BACK_TO_PRUDUCTS = "BACK TO PRODUCTS";
+        }
         }
 
     public class Urls {
