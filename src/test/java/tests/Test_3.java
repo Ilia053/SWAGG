@@ -9,7 +9,7 @@ public class Test_3 extends BaseTestWithEnter{
     @Test
     public void test_2_1() {
         ProductsssPage productsssPage = new ProductsssPage(driver);
-        productsssPage.addToCart(GlobalVaraible.Productsss.TITLE_NAME_LIST[1]);
+        productsssPage.addToCart(GlobalVaraible.Productsss.TITLE_NAME_LIST[1]).sleepMy(2000);
 
     }
 }

@@ -44,13 +44,14 @@ public class ProductsssPage extends BasePage{
     }
 
 
-    public void addToCart(String nameOfProducts){
+    public ProductsssPage addToCart(String nameOfProducts){
         for (WebElement productName : listOfProductTitle) {
             if (productName.getText().equalsIgnoreCase(nameOfProducts)){
                 listOfButtonAdd.get(Arrays.stream(GlobalVaraible.Productsss.TITLE_NAME_LIST).toList().indexOf(nameOfProducts)).click();
                 sleepMy(2000);
             }
         }
+        return this;
     }
     public void removeToCart(){
 
