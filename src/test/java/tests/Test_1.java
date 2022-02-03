@@ -1,5 +1,6 @@
 package tests;
 
+import io.qameta.allure.*;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageObject.GlobalVaraible;
@@ -7,6 +8,12 @@ import pageObject.LoginPage;
 import pageObject.ProductsssPage;
 
 public class Test_1 extends BaseTest{
+
+        @Severity(SeverityLevel.BLOCKER)
+        @Description("Just enter")
+        @Epic("E-01")
+        @Feature("Feature_2:Login")
+        @Story("Story")
         @Test
         public void test1(){
             LoginPage loginPage = new LoginPage(driver);

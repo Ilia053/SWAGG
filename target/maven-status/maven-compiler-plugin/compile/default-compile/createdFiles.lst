@@ -1,0 +1,11 @@
+pageObject\Urls.class
+pageObject\GlobalVaraible$Productsss.class
+pageObject\ProductPage.class
+pageObject\ProductsssPage.class
+pageObject\Locators.class
+pageObject\GlobalVaraible$Urls.class
+pageObject\GlobalVaraible$Productsss$ProductInside.class
+pageObject\CommonElements.class
+pageObject\BasePage.class
+pageObject\GlobalVaraible.class
+pageObject\LoginPage.class

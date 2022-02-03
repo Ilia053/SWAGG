@@ -1,6 +1,9 @@
 package tests;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import io.qameta.allure.Allure;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
@@ -8,6 +11,8 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import pageObject.GlobalVaraible;
 import pageObject.Urls;
+
+import java.io.ByteArrayInputStream;
 
 public class BaseTest {
     WebDriver driver;
@@ -26,6 +31,7 @@ public class BaseTest {
 
     @AfterMethod
     public void tearDown(){
+        Allure.addAttachment("screenShot",new ByteArrayInputStream(((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES)));
         driver.quit();
     }
 }
