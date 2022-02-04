@@ -19,7 +19,11 @@ public class CheckOutPage extends BasePage{
     @FindBy(css = "[class='submit-button btn btn_primary cart_button btn_action']")
     WebElement buttonContinue;
 
-    public void fillEveryThing(){
-        fillField(inputName,);
+    public CheckOutOver fillEveryThingAndSend(){
+        fillField(inputName,GlobalVaraible.Productsss.ProductInside.CHECK_NAME);
+        fillField(inputLastName,GlobalVaraible.Productsss.ProductInside.CHECK_LASTNAME);
+        fillField(inputPostalCode,GlobalVaraible.Productsss.ProductInside.CHECK_POSTCODE);
+        clickElem(buttonContinue);
+        return new CheckOutOver(driver);
     }
 }

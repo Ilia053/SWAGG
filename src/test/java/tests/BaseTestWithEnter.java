@@ -8,7 +8,7 @@ import pageObject.ProductsssPage;
 public class BaseTestWithEnter extends BaseTest{
 
     @BeforeMethod
-    public Object enter(){
+    public ProductsssPage enter(){
         LoginPage loginPage = new LoginPage(driver);
         ProductsssPage productsssPage = new ProductsssPage(driver);
         loginPage.insertName(GlobalVaraible.STANDARD_USER).insertPass(GlobalVaraible.CORRECT_PASSWORD).clickLoginElem().sleepMy(2000);

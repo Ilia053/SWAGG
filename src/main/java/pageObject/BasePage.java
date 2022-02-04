@@ -26,10 +26,11 @@ public abstract class BasePage {
         driverWait.until(ExpectedConditions.elementToBeClickable(elem));
     }
 
-    public void fillField(WebElement elem, String text){
+    public BasePage fillField(WebElement elem, String text){
         waitisVisible(elem);
         elem.clear();
         elem.sendKeys(text);
+        return this;
     }
 
     public void clickElem(WebElement elem){

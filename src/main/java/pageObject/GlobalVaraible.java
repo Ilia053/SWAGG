@@ -31,7 +31,9 @@ public class GlobalVaraible {
         public class ProductInside{
             public static final String BACK_TO_PRODUCTS = "BACK TO PRODUCTS";
 
-
+            public static final String CHECK_NAME = "Ilia";
+            public static final String CHECK_LASTNAME = "Rudnik";
+            public static final String CHECK_POSTCODE = "173020";
         }
         }
     public class Urls {
