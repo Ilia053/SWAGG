@@ -20,7 +20,8 @@ public class CommonElements extends BasePage{
         super(driver);
     }
 
-    public void openCart(){
+    public CartPage openCart(){
         clickElem(cart);
+        return new CartPage(driver);
     }
 }

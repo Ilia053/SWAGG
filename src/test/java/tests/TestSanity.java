@@ -10,7 +10,9 @@ public class TestSanity extends BaseTestWithEnter{
     @Test(testName = "Sanity")
     public void TestS(){
         ProductsssPage productsssPage = new ProductsssPage(driver);
-        productsssPage.addToCart(GlobalVaraible.Productsss.TITLE_NAME_LIST[0]).addToCart(GlobalVaraible.Productsss.TITLE_NAME_LIST[0]).sleepMy(2000);
+        productsssPage.addToCart(GlobalVaraible.Productsss.TITLE_NAME_LIST[0])
+                .addToCart(GlobalVaraible.Productsss.TITLE_NAME_LIST[0]).sleepMy(2000)
+                .openCart().ClickCheckOut().sleepMy(2000);
     }
 
 }

@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import java.util.Arrays;
 import java.util.List;
 
-public class ProductsssPage extends BasePage{
+public class ProductsssPage extends CommonElements{
 
     public ProductsssPage(WebDriver driver) {
         super(driver);
@@ -62,5 +62,14 @@ public class ProductsssPage extends BasePage{
     }
     public void removeToCart(){
 
+    }
+    @Override
+    public ProductsssPage sleepMy(long x){
+        try {
+            Thread.sleep(x);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        return this;
     }
 }

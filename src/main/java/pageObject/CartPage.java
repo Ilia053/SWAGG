@@ -12,8 +12,12 @@ public class CartPage extends BasePage{
     @FindBy(css = "[class='btn btn_action btn_medium checkout_button']")
     WebElement buttonCheckOut;
 
-    public CartPage ClickCheckOut(){
+//    public CartPage ClickCheckOut(){
+//        clickElem(buttonCheckOut);
+//        return this;
+//    }
+    public CheckOutPage ClickCheckOut(){
         clickElem(buttonCheckOut);
-        return this;
+        return new CheckOutPage(driver);
     }
 }
