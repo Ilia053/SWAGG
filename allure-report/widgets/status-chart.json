@@ -1,0 +1,11 @@
+[ {
+  "uid" : "ef0291b9156a3cb5",
+  "name" : "test1",
+  "time" : {
+    "start" : 1643923973661,
+    "stop" : 1643923978782,
+    "duration" : 5121
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+} ]

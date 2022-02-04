@@ -30,9 +30,10 @@ public class GlobalVaraible {
         };
         public class ProductInside{
             public static final String BACK_TO_PRODUCTS = "BACK TO PRODUCTS";
-        }
-        }
 
+
+        }
+        }
     public class Urls {
         public static final String BASE_URL_ENTER = "https://www.saucedemo.com/";
         public static final String BASE_URL_PRODUCT = "https://www.saucedemo.com/inventory.html";

@@ -1,0 +1,128 @@
+{
+  "uid" : "4bd18b9882dfa057",
+  "name" : "test1",
+  "fullName" : "tests.Test_1.test1",
+  "historyId" : "e2af9fb61b770e686bd64813bd8d7eb6",
+  "time" : {
+    "start" : 1643923012653,
+    "stop" : 1643923018410,
+    "duration" : 5757
+  },
+  "description" : "Just enter",
+  "descriptionHtml" : "<p>Just enter</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setupDrive",
+    "time" : {
+      "start" : 1643923009452,
+      "stop" : 1643923012312,
+      "duration" : 2860
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "setupChromeDriver",
+    "time" : {
+      "start" : 1643923008011,
+      "stop" : 1643923009437,
+      "duration" : 1426
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1643923018424,
+      "stop" : 1643923020005,
+      "duration" : 1581
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2f00abb41a4e7afd",
+      "name" : "screenShot",
+      "source" : "2f00abb41a4e7afd.png",
+      "type" : "image/png",
+      "size" : 353424
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.Test_1"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.Test_1"
+  }, {
+    "name" : "testMethod",
+    "value" : "test1"
+  }, {
+    "name" : "parentSuite",
+    "value" : "LoginTests"
+  }, {
+    "name" : "suite",
+    "value" : "NegativeLoginTests"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.Test_1"
+  }, {
+    "name" : "host",
+    "value" : "COMP-ILIA53"
+  }, {
+    "name" : "thread",
+    "value" : "15112@COMP-ILIA53.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "E-01"
+  }, {
+    "name" : "feature",
+    "value" : "Feature_2:Login"
+  }, {
+    "name" : "story",
+    "value" : "Story"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4bd18b9882dfa057.json",
+  "parameterValues" : [ ]
+}

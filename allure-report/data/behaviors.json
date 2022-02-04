@@ -1,0 +1,30 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "E-01",
+    "children" : [ {
+      "name" : "Feature_2:Login",
+      "children" : [ {
+        "name" : "Story",
+        "children" : [ {
+          "name" : "test1",
+          "uid" : "ef0291b9156a3cb5",
+          "parentUid" : "069d0d8c8a5f1bfc99e16f6cf62feb5b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1643923973661,
+            "stop" : 1643923978782,
+            "duration" : 5121
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "069d0d8c8a5f1bfc99e16f6cf62feb5b"
+      } ],
+      "uid" : "5d486c215c82457ee763c639452fa775"
+    } ],
+    "uid" : "54c00015d25a955cd3622d1c4271de20"
+  } ]
+}

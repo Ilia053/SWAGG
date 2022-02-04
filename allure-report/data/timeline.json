@@ -1,0 +1,60 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "COMP-ILIA53",
+    "children" : [ {
+      "name" : "13700@COMP-ILIA53.main(1)",
+      "children" : [ {
+        "name" : "test1",
+        "uid" : "f9b9363c720e4759",
+        "parentUid" : "68320e89d6d21205d7c33caae93d7433",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643921689147,
+          "stop" : 1643921694382,
+          "duration" : 5235
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "68320e89d6d21205d7c33caae93d7433"
+    }, {
+      "name" : "15112@COMP-ILIA53.main(1)",
+      "children" : [ {
+        "name" : "test1",
+        "uid" : "4bd18b9882dfa057",
+        "parentUid" : "d720f8201b3fba2bf1858e81bb4ed497",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643923012653,
+          "stop" : 1643923018410,
+          "duration" : 5757
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d720f8201b3fba2bf1858e81bb4ed497"
+    }, {
+      "name" : "13692@COMP-ILIA53.main(1)",
+      "children" : [ {
+        "name" : "test1",
+        "uid" : "ef0291b9156a3cb5",
+        "parentUid" : "e308b775e217969dee93818efee0331c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643923973661,
+          "stop" : 1643923978782,
+          "duration" : 5121
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e308b775e217969dee93818efee0331c"
+    } ],
+    "uid" : "7ac2c8e0e8b340b34c85a2bfa3dca735"
+  } ]
+}
