@@ -11,7 +11,8 @@ public class CheckOutComplete extends BasePage{
     @FindBy(css = "[class='btn btn_primary btn_small']")
     WebElement buttonBackHome;
 
-    public void clickBackHome(){
+    public ProductsssPage clickBackHome(){
         clickElem(buttonBackHome);
+        return new ProductsssPage(driver);
     }
 }

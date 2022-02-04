@@ -4,16 +4,16 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class CheckOutPage extends BasePage{
+public class CheckOutPage extends CommonElements{
     public CheckOutPage(WebDriver driver) {
         super(driver);
     }
 
     @FindBy(css = "[data-test='firstName']")
     WebElement inputName;
-    @FindBy(css = "[class='lastName']")
+    @FindBy(css = "[data-test='lastName']")
     WebElement inputLastName;
-    @FindBy(css = "[class='postalCode']")
+    @FindBy(css = "[data-test='postalCode']")
     WebElement inputPostalCode;
 
     @FindBy(css = "[class='submit-button btn btn_primary cart_button btn_action']")
@@ -25,5 +25,14 @@ public class CheckOutPage extends BasePage{
         fillField(inputPostalCode,GlobalVaraible.Productsss.ProductInside.CHECK_POSTCODE);
         clickElem(buttonContinue);
         return new CheckOutOver(driver);
+    }
+    @Override
+    public CheckOutPage sleepMy(long x){
+        try {
+            Thread.sleep(x);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        return this;
     }
 }

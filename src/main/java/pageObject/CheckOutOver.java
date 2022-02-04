@@ -13,7 +13,8 @@ public class CheckOutOver extends BasePage{
     @FindBy(css = "[class='btn btn_action btn_medium cart_button']")
     WebElement buttonFinish;
 
-    public void clickFinish(){
+    public CheckOutComplete clickFinish(){
         clickElem(buttonFinish);
+        return new CheckOutComplete(driver);
     }
 }
