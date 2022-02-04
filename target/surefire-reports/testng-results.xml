@@ -2,28 +2,32 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-03T23:32:49 IST" name="LoginTests" finished-at="2022-02-03T23:33:00 IST" duration-ms="11050">
+  <suite started-at="2022-02-04T22:42:40 IST" name="LoginTests" finished-at="2022-02-04T22:43:02 IST" duration-ms="21348">
     <groups>
     </groups>
-    <test started-at="2022-02-03T23:32:49 IST" name="NegativeLoginTests" finished-at="2022-02-03T23:33:00 IST" duration-ms="11050">
-      <class name="tests.Test_1">
-        <test-method is-config="true" signature="setupChromeDriver()[pri:0, instance:tests.Test_1@3b6ddd1d]" started-at="2022-02-03T23:32:49 IST" name="setupChromeDriver" finished-at="2022-02-03T23:32:50 IST" duration-ms="764" status="PASS">
+    <test started-at="2022-02-04T22:42:40 IST" name="NegativeLoginTests" finished-at="2022-02-04T22:43:02 IST" duration-ms="21348">
+      <class name="tests.TestSanity">
+        <test-method is-config="true" signature="setupChromeDriver()[pri:0, instance:tests.TestSanity@4d465b11]" started-at="2022-02-04T22:42:40 IST" name="setupChromeDriver" finished-at="2022-02-04T22:42:41 IST" duration-ms="674" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupChromeDriver -->
-        <test-method is-config="true" signature="setupDrive()[pri:0, instance:tests.Test_1@3b6ddd1d]" started-at="2022-02-03T23:32:50 IST" name="setupDrive" finished-at="2022-02-03T23:32:53 IST" duration-ms="3128" status="PASS">
+        <test-method is-config="true" signature="setupDrive()[pri:0, instance:tests.TestSanity@4d465b11]" started-at="2022-02-04T22:42:41 IST" name="setupDrive" finished-at="2022-02-04T22:42:44 IST" duration-ms="2806" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupDrive -->
-        <test-method signature="test1()[pri:0, instance:tests.Test_1@3b6ddd1d]" started-at="2022-02-03T23:32:53 IST" name="test1" finished-at="2022-02-03T23:32:58 IST" duration-ms="5321" status="PASS">
+        <test-method is-config="true" signature="enter()[pri:0, instance:tests.TestSanity@4d465b11]" started-at="2022-02-04T22:42:44 IST" name="enter" finished-at="2022-02-04T22:42:48 IST" duration-ms="3898" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Test_1@3b6ddd1d]" started-at="2022-02-03T23:32:58 IST" name="tearDown" finished-at="2022-02-03T23:33:00 IST" duration-ms="1595" status="PASS">
+        </test-method> <!-- enter -->
+        <test-method signature="TestS()[pri:0, instance:tests.TestSanity@4d465b11]" started-at="2022-02-04T22:42:48 IST" name="TestS" finished-at="2022-02-04T22:43:01 IST" duration-ms="13232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestS -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestSanity@4d465b11]" started-at="2022-02-04T22:43:01 IST" name="tearDown" finished-at="2022-02-04T22:43:02 IST" duration-ms="523" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.Test_1 -->
+      </class> <!-- tests.TestSanity -->
     </test> <!-- NegativeLoginTests -->
   </suite> <!-- LoginTests -->
 </testng-results>

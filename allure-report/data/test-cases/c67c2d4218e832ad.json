@@ -1,116 +1,118 @@
 {
-  "uid" : "4bd18b9882dfa057",
-  "name" : "test1",
-  "fullName" : "tests.Test_1.test1",
-  "historyId" : "e2af9fb61b770e686bd64813bd8d7eb6",
+  "uid" : "c67c2d4218e832ad",
+  "name" : "TestS",
+  "fullName" : "tests.TestSanity.TestS",
+  "historyId" : "3a61dfd7f957fbc532547546ade3bd13",
   "time" : {
-    "start" : 1643923012653,
-    "stop" : 1643923018410,
-    "duration" : 5757
+    "start" : 1644005978919,
+    "stop" : 1644005992089,
+    "duration" : 13170
   },
-  "description" : "Just enter",
-  "descriptionHtml" : "<p>Just enter</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "setupDrive",
     "time" : {
-      "start" : 1643923009452,
-      "stop" : 1643923012312,
-      "duration" : 2860
+      "start" : 1644005970084,
+      "stop" : 1644005975096,
+      "duration" : 5012
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "enter",
+    "time" : {
+      "start" : 1644005975209,
+      "stop" : 1644005978824,
+      "duration" : 3615
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
   }, {
     "name" : "setupChromeDriver",
     "time" : {
-      "start" : 1643923008011,
-      "stop" : 1643923009437,
-      "duration" : 1426
+      "start" : 1644005969319,
+      "stop" : 1644005970055,
+      "duration" : 736
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
   } ],
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1643923018424,
-      "stop" : 1643923020005,
-      "duration" : 1581
+      "start" : 1644005992103,
+      "stop" : 1644005992803,
+      "duration" : 700
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "2f00abb41a4e7afd",
+      "uid" : "4089a9b546dcfb5c",
       "name" : "screenShot",
-      "source" : "2f00abb41a4e7afd.png",
+      "source" : "4089a9b546dcfb5c.png",
       "type" : "image/png",
-      "size" : 353424
+      "size" : 514454
     } ],
     "parameters" : [ ],
-    "attachmentsCount" : 1,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : true
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
   } ],
   "labels" : [ {
     "name" : "package",
-    "value" : "tests.Test_1"
+    "value" : "tests.TestSanity"
   }, {
     "name" : "testClass",
-    "value" : "tests.Test_1"
+    "value" : "tests.TestSanity"
   }, {
     "name" : "testMethod",
-    "value" : "test1"
+    "value" : "TestS"
   }, {
     "name" : "parentSuite",
-    "value" : "LoginTests"
+    "value" : "Default Suite"
   }, {
     "name" : "suite",
-    "value" : "NegativeLoginTests"
+    "value" : "SWAGGER"
   }, {
     "name" : "subSuite",
-    "value" : "tests.Test_1"
+    "value" : "tests.TestSanity"
   }, {
     "name" : "host",
     "value" : "COMP-ILIA53"
   }, {
     "name" : "thread",
-    "value" : "15112@COMP-ILIA53.main(1)"
+    "value" : "12964@COMP-ILIA53.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
   }, {
     "name" : "language",
     "value" : "java"
-  }, {
-    "name" : "epic",
-    "value" : "E-01"
-  }, {
-    "name" : "feature",
-    "value" : "Feature_2:Login"
-  }, {
-    "name" : "story",
-    "value" : "Story"
-  }, {
-    "name" : "severity",
-    "value" : "blocker"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -123,6 +125,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "4bd18b9882dfa057.json",
+  "source" : "c67c2d4218e832ad.json",
   "parameterValues" : [ ]
 }

@@ -104,7 +104,7 @@
                     <div class="method-list-content passed suite-LoginTests">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-LoginTests" title="tests.Test_1" class="method navigator-link" hash-for-method="test1">test1</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-LoginTests" title="tests.TestSanity" class="method navigator-link" hash-for-method="TestS">TestS</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-LoginTests -->
@@ -122,14 +122,14 @@
           <div class="suite-LoginTests-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">tests.Test_1</span>
+              <span class="class-name">tests.TestSanity</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="test1">
-                  </a> <!-- test1 -->
-                  <span class="method-name">test1</span>
+                  <a name="TestS">
+                  </a> <!-- TestS -->
+                  <span class="method-name">TestS</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -146,7 +146,7 @@
 &lt;suite name=&quot;LoginTests&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;NegativeLoginTests&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;tests.Test_1&quot;/&gt;
+      &lt;class name=&quot;tests.TestSanity&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- NegativeLoginTests --&gt;
 &lt;/suite&gt; &lt;!-- LoginTests --&gt;
@@ -188,14 +188,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'test1')
-data.setCell(0, 2, 'tests.Test_1')
-data.setCell(0, 3, 5321);
+data.setCell(0, 1, 'TestS')
+data.setCell(0, 2, 'tests.TestSanity')
+data.setCell(0, 3, 13232);
 window.suiteTableData['LoginTests']= { tableData: data, tableDiv: 'times-div-LoginTests'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <span class="suite-total-time">Total running time: 13 seconds</span>
               <div id="times-div-LoginTests">
               </div> <!-- times-div-LoginTests -->
             </div> <!-- times-div -->
@@ -221,22 +221,26 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">tests.Test_1</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">tests.TestSanity</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setupChromeDriver</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">setupDrive</span>
-                <span class="method-start">791 ms</span>
+                <span class="method-start">697 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">enter</span>
+                <span class="method-start">3623 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">test1</span>
-                <span class="method-start">4056 ms</span>
+                <span class="method-name">TestS</span>
+                <span class="method-start">7525 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">9399 ms</span>
+                <span class="method-start">20774 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -1,5 +1,5 @@
 {
-  "uid" : "ef0291b9156a3cb5",
+  "uid" : "d977d3b21cee7de8",
   "name" : "test1",
   "fullName" : "tests.Test_1.test1",
   "historyId" : "e2af9fb61b770e686bd64813bd8d7eb6",
@@ -25,10 +25,10 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
   }, {
     "name" : "setupDrive",
     "time" : {
@@ -41,10 +41,10 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
   } ],
   "afterStages" : [ {
     "name" : "tearDown",
@@ -57,17 +57,17 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "e29285150d3e1377",
+      "uid" : "1bd85c7b2f9798e6",
       "name" : "screenShot",
-      "source" : "e29285150d3e1377.png",
+      "source" : "1bd85c7b2f9798e6.png",
       "type" : "image/png",
       "size" : 353424
     } ],
     "parameters" : [ ],
-    "attachmentsCount" : 1,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : true
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
   } ],
   "labels" : [ {
     "name" : "package",
@@ -117,30 +117,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "blocker",
-    "retries" : [ {
-      "uid" : "4bd18b9882dfa057",
-      "status" : "passed",
-      "time" : {
-        "start" : 1643923012653,
-        "stop" : 1643923018410,
-        "duration" : 5757
-      }
-    }, {
-      "uid" : "f9b9363c720e4759",
-      "status" : "passed",
-      "time" : {
-        "start" : 1643921689147,
-        "stop" : 1643921694382,
-        "duration" : 5235
-      }
-    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ef0291b9156a3cb5.json",
+  "source" : "d977d3b21cee7de8.json",
   "parameterValues" : [ ]
 }

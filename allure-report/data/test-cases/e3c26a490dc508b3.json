@@ -1,12 +1,12 @@
 {
-  "uid" : "f9b9363c720e4759",
+  "uid" : "e3c26a490dc508b3",
   "name" : "test1",
   "fullName" : "tests.Test_1.test1",
   "historyId" : "e2af9fb61b770e686bd64813bd8d7eb6",
   "time" : {
-    "start" : 1643921689147,
-    "stop" : 1643921694382,
-    "duration" : 5235
+    "start" : 1643923012653,
+    "stop" : 1643923018410,
+    "duration" : 5757
   },
   "description" : "Just enter",
   "descriptionHtml" : "<p>Just enter</p>\n",
@@ -16,58 +16,58 @@
   "beforeStages" : [ {
     "name" : "setupDrive",
     "time" : {
-      "start" : 1643921685280,
-      "stop" : 1643921688867,
-      "duration" : 3587
+      "start" : 1643923009452,
+      "stop" : 1643923012312,
+      "duration" : 2860
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
   }, {
     "name" : "setupChromeDriver",
     "time" : {
-      "start" : 1643921683667,
-      "stop" : 1643921685255,
-      "duration" : 1588
+      "start" : 1643923008011,
+      "stop" : 1643923009437,
+      "duration" : 1426
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
   } ],
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1643921694397,
-      "stop" : 1643921696542,
-      "duration" : 2145
+      "start" : 1643923018424,
+      "stop" : 1643923020005,
+      "duration" : 1581
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "51fd95d39bab437a",
+      "uid" : "a2351f5c29ec96dc",
       "name" : "screenShot",
-      "source" : "51fd95d39bab437a.png",
+      "source" : "a2351f5c29ec96dc.png",
       "type" : "image/png",
-      "size" : 452359
+      "size" : 353424
     } ],
     "parameters" : [ ],
-    "attachmentsCount" : 1,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : true
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
   } ],
   "labels" : [ {
     "name" : "package",
@@ -92,7 +92,7 @@
     "value" : "COMP-ILIA53"
   }, {
     "name" : "thread",
-    "value" : "13700@COMP-ILIA53.main(1)"
+    "value" : "15112@COMP-ILIA53.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -123,6 +123,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "f9b9363c720e4759.json",
+  "source" : "e3c26a490dc508b3.json",
   "parameterValues" : [ ]
 }

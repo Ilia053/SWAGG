@@ -3,13 +3,7 @@
 <suite name="LoginTests" verbose="1" >
     <test name="NegativeLoginTests" >
         <classes>
-            <class name="tests.Test_1" />
+            <class name="tests.TestSanity" />
         </classes>
     </test>
-
-<!--    <test name="PositiveLoginTests">-->
-<!--        <classes>-->
-<!--            <class name="tests."/>-->
-<!--        </classes>-->
-<!--    </test>-->
 </suite>

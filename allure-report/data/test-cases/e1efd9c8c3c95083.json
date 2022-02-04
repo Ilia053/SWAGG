@@ -1,0 +1,130 @@
+{
+  "uid" : "e1efd9c8c3c95083",
+  "name" : "TestS",
+  "fullName" : "tests.TestSanity.TestS",
+  "historyId" : "3a61dfd7f957fbc532547546ade3bd13",
+  "time" : {
+    "start" : 1644004771503,
+    "stop" : 1644004780720,
+    "duration" : 9217
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "enter",
+    "time" : {
+      "start" : 1644004767717,
+      "stop" : 1644004771431,
+      "duration" : 3714
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "setupDrive",
+    "time" : {
+      "start" : 1644004764016,
+      "stop" : 1644004767574,
+      "duration" : 3558
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "setupChromeDriver",
+    "time" : {
+      "start" : 1644004763215,
+      "stop" : 1644004763988,
+      "duration" : 773
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1644004780731,
+      "stop" : 1644004781240,
+      "duration" : 509
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e9e0dc469125aca1",
+      "name" : "screenShot",
+      "source" : "e9e0dc469125aca1.png",
+      "type" : "image/png",
+      "size" : 27235
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.TestSanity"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.TestSanity"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestS"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SWAGGER"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.TestSanity"
+  }, {
+    "name" : "host",
+    "value" : "COMP-ILIA53"
+  }, {
+    "name" : "thread",
+    "value" : "9284@COMP-ILIA53.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e1efd9c8c3c95083.json",
+  "parameterValues" : [ ]
+}
