@@ -33,7 +33,7 @@ public class ProductsssPage extends CommonElements{
 
 
 
-    public void   clickNameProduct(String nameOfProducts){
+    public ProductPage  clickNameProduct(String nameOfProducts){
         for (WebElement productName : listOfProductTitle) {
             if (productName.getText().equalsIgnoreCase(nameOfProducts)){
                 waitisClickable(productName);
@@ -41,6 +41,7 @@ public class ProductsssPage extends CommonElements{
                 sleepMy(3000);
             }
         }
+        return new ProductPage(driver);
     }
 
 
