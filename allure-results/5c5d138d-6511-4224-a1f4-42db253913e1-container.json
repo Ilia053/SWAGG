@@ -1,1 +1,0 @@
-{"uuid":"5c5d138d-6511-4224-a1f4-42db253913e1","name":"tests.BaseTestWithEnter.enter","children":["7cc59c7e-46e4-45c7-87d7-6d97d5f7c29d"],"description":"","befores":[{"name":"enter","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1644003267826,"stop":1644003271614}],"afters":[],"start":1644003267826,"stop":1644003271614}
