@@ -24,4 +24,6 @@ public class CommonElements extends BasePage{
         clickElem(cart);
         return new CartPage(driver);
     }
+
+
 }

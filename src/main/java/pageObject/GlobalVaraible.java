@@ -16,6 +16,7 @@ public class GlobalVaraible {
     public static final String ERORR_MESSAGE_1 = "Epic sadface: Username is required";
     public static final String ERORR_MESSAGE_2 = "Epic sadface: Username and password do not match any user in this service";
     public static final String ERORR_MESSAGE_3 = "Username and password do not match any user in this service";
+    public static final String ERORR_MESSAGE_4 = "Epic sadface: Sorry, this user has been locked out.";
 
     public static class Productsss{
         public static final String NAME_PRODUCTS = "PRODUCTS";

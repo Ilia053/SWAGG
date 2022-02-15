@@ -24,6 +24,9 @@ public class ProductsssPage extends CommonElements{
     @FindBy(css = "[class='btn btn_primary btn_small btn_inventory']")
     private List<WebElement> listOfButtonAdd;
 
+    @FindBy(css = "[class='shopping_cart_container']")
+    private WebElement simbolCart;
+
 
 
     public String getName(){
@@ -31,17 +34,22 @@ public class ProductsssPage extends CommonElements{
         return stringProd.getText();
     }
 
+     public int getCartNumber(){
+
+        return Integer.parseInt(simbolCart.getText());
+     }
 
 
-    public ProductPage  clickNameProduct(String nameOfProducts){
+    public void   clickNameProduct(String nameOfProducts){
         for (WebElement productName : listOfProductTitle) {
+            System.out.println(productName.getText());
             if (productName.getText().equalsIgnoreCase(nameOfProducts)){
                 waitisClickable(productName);
                 productName.click();
                 sleepMy(3000);
             }
         }
-        return new ProductPage(driver);
+//        return new ProductPage(driver);
     }
 
 
@@ -73,4 +81,6 @@ public class ProductsssPage extends CommonElements{
         }
         return this;
     }
+
+
 }

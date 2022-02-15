@@ -15,11 +15,12 @@ public class Test_2 extends BaseTestWithEnter {
         ProductsssPage productsssPage = new ProductsssPage(driver);
         productsssPage.sleepMy(2000);
         Assert.assertEquals(productsssPage.getName(), GlobalVaraible.Productsss.NAME_PRODUCTS);
-        productsssPage.clickNameProduct(GlobalVaraible.Productsss.TITLE_NAME_LIST[0]);
+        productsssPage.clickNameProduct(GlobalVaraible.Productsss.TITLE_NAME_LIST[2]);
         productsssPage.sleepMy(2000);
+        System.out.println("777777");
 
-        ProductPage productPage = new ProductPage(driver);
-        Assert.assertEquals(productPage.getName(), GlobalVaraible.Productsss.ProductInside.BACK_TO_PRODUCTS);
+//        ProductPage productPage = new ProductPage(driver);
+//        Assert.assertEquals(productPage.getName(), GlobalVaraible.Productsss.ProductInside.BACK_TO_PRODUCTS);
 
     }
 }
